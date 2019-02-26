@@ -9,7 +9,7 @@ gem 'puma', '~> 3.11'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'rack-cors'
 gem 'active_model_serializers'
-gem 'unirest'
+gem 'faraday', '~> 0.9.2'
 gem 'dotenv-rails', groups: [:development, :test]
 gem "bcrypt", "~> 3.1"
 gem 'jwt'
